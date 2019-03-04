@@ -14,6 +14,6 @@ function deepestChild() {
   var lists = document.getElementById('grand-node').querySelectorAll('div');
   var array = [];
   for (let i = 0; i < lists.length - 1; i++) {
-    array = lists[i].innerHTML('div');
+    array = lists[i].querySelector('div');
   }
 }
