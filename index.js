@@ -16,4 +16,5 @@ function deepestChild() {
   for (let i = 0; i < lists.length - 1; i++) {
     array = lists[i].querySelector('div');
   }
+  return array; 
 }
