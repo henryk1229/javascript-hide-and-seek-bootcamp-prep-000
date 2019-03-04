@@ -1,4 +1,6 @@
 function getFirstSelector(selector) { 
   return document.querySelector(selector);
 }
-function 
+function nestedTarget() {
+  return document.getElementById()
+}
