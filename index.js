@@ -13,6 +13,6 @@ function increaseRankBy(n) {
 function deepestChild() {
   var lists = document.getElementById('grand-node').querySelectorAll('div');
   var array = [];
-  for (let i = 0, )
+  for (let i = 0; i < lists.length - 1; i++)
   
 }
